@@ -142,7 +142,7 @@ For example, a web app might look like the following:
 
 ```json
 {
-    "apiVersion": "2016-08-01",
+    "apiVersion": "2020-06-01,
     "type": "Microsoft.Web/sites",
     "name": "[variables('appName')]",
     "location": "[resourceGroup().location]",
@@ -249,7 +249,7 @@ For example, a web app might look like the following:
 
 ```json
 {
-    "apiVersion": "2016-08-01",
+    "apiVersion": "2020-06-01",
     "type": "Microsoft.Web/sites",
     "name": "[variables('appName')]",
     "location": "[resourceGroup().location]",
